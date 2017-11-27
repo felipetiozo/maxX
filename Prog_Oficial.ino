@@ -11,7 +11,7 @@
 
   Servo 7 Base
 
-
+teste
 
 */
 #include <Wire.h>
@@ -269,7 +269,6 @@ JuntaPrincipal.write(140);
   delay(2000);
   Base.write(110);
   delay(2000);
-
 
 
 
