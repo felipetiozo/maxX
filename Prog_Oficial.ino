@@ -11,7 +11,7 @@
 
   Servo 7 Base
 
-teste
+  teste
 
 */
 #include <Wire.h>
@@ -144,9 +144,6 @@ void menu() {
 
 }
 
-void posinit() {
-
-}
 
 void abrirgarra() {
   Garra.write(160);
@@ -158,36 +155,7 @@ void fechargarra() {
   delay(2000);
 }
 
-void setup() {
-  inicio();
-
-
-  settings();
-
-  GiroGarra.attach(6);
-  delay(1000);
-  Garra.attach(9);
-  delay(1000);
-  Base.attach(7);
-  delay(1000);
-  Secundaria.attach(11);
-  delay(1000);
-  JuntaPrincipal.attach(10);
-  delay(1000);
-
-  menu();
-
-
-
-
-
-
-}
-
-void loop() {
-
-  // COMEÇO
-
+void demo1() {
   JuntaPrincipal.write(78);
   delay(2000);
   Base.write(110);
@@ -216,24 +184,24 @@ void loop() {
   delay(2000);
 
   // VIROU BASE COM ARGOLA
- /* JuntaPrincipal.write(135);
-  delay(2000);
-  Secundaria.write(17);
-  delay(2000);
-  abrirgarra();
-*/
-JuntaPrincipal.write(140);
+  /* JuntaPrincipal.write(135);
+    delay(2000);
+    Secundaria.write(17);
+    delay(2000);
+    abrirgarra();
+  */
+  JuntaPrincipal.write(140);
   delay(2500);
- // Garra.write(160);
+  // Garra.write(160);
   //delay(2000);
   //GiroGarra.write(60);
   //delay(2000);
   Secundaria.write(31);
   delay(2500);
   abrirgarra();
-  
+
   // LARGOU ARGOLA
- 
+
   JuntaPrincipal.write(80);
   delay(2000);
   Base.write(110);
@@ -273,6 +241,133 @@ JuntaPrincipal.write(140);
 
 
 
+}
+void posicaoinicial() {
+  JuntaPrincipal.write(78);
+  delay(2000);
+  Base.write(110);
+  delay(2000);
+}
+
+void posicaodireita() {
+  Base.write(180);
+  delay(2000);
+}
+
+void posicaoesquerda() {
+  Base.write(5);
+  delay(2000);
+}
+
+void abaixar() {
+  JuntaPrincipal.write(140);
+  delay(2500);
+  Garra.write(160);
+  delay(2000);
+  GiroGarra.write(60);
+  delay(2000);
+  Secundaria.write(31);
+  delay(2500);
+  Garra.write(100);
+  delay(2000);
+  Secundaria.write(90);
+  delay(2500);
+  JuntaPrincipal.write(90);
+  delay(2000);
+}
+
+void abaixar2() {
+  JuntaPrincipal.write(180);
+  delay(2000);
+  Garra.write(180);
+  delay(2000);
+  Secundaria.write(79);
+  delay(2000);
+  Garra.write(140);
+  delay(2000);
+  Secundaria.write(90);
+  delay(2500);
+  JuntaPrincipal.write(90);
+  delay(2000);
+}
+
+void abaixar3() {
+  JuntaPrincipal.write(180);
+  delay(2000);
+  Garra.write(140);
+  delay(2000);
+  Secundaria.write(75);
+  delay(2000);
+  Garra.write(180);
+  delay(2000);
+  Secundaria.write(120);
+  delay(2500);
+  JuntaPrincipal.write(140);
+  delay(1000);
+  JuntaPrincipal.write(90);
+  delay(1000);
+}
+void demo2() {
+  posicaoinicial();
+  posicaodireita();
+  abaixar();
+  posicaoinicial();
+  posicaoesquerda();
+  abaixar();
+  posicaoinicial();
+}
+
+void demo3() {
+
+  posicaoinicial();
+  posicaodireita();
+  abaixar2();
+  posicaoinicial();
+  posicaoesquerda();
+  abaixar3();
+  posicaoinicial();
+  posicaoesquerda();
+  abaixar2();
+  posicaoinicial();
+  posicaoesquerda();
+  abaixar3();
+  
+
+}
+
+
+void setup() {
+  inicio();
+
+
+  settings();
+
+  GiroGarra.attach(6);
+  delay(1000);
+  Garra.attach(9);
+  delay(1000);
+  Base.attach(7);
+  delay(1000);
+  Secundaria.attach(11);
+  delay(1000);
+  JuntaPrincipal.attach(10);
+  delay(1000);
+
+  menu();
+
+
+
+
+
+
+}
+
+
+void loop() {
+
+  //demo1();
+  //demo2();
+   demo3();
 
 
 
