@@ -244,66 +244,67 @@ void demo1() {
 }
 void posicaoinicial() {
   JuntaPrincipal.write(78);
-  delay(2000);
+  delay(1000);
   Base.write(110);
-  delay(2000);
+  delay(1000);
+  apitar();
 }
 
 void posicaodireita() {
   Base.write(180);
-  delay(2000);
+  delay(1000);
 }
 
 void posicaoesquerda() {
   Base.write(5);
-  delay(2000);
+  delay(1000);
 }
 
 void abaixar() {
   JuntaPrincipal.write(140);
-  delay(2500);
+  delay(1000);
   Garra.write(160);
-  delay(2000);
+  delay(1000);
   GiroGarra.write(60);
-  delay(2000);
+  delay(1000);
   Secundaria.write(31);
-  delay(2500);
+  delay(1000);
   Garra.write(100);
-  delay(2000);
+  delay(1000);
   Secundaria.write(90);
-  delay(2500);
+  delay(1000);
   JuntaPrincipal.write(90);
-  delay(2000);
+  delay(1000);
 }
 
 void abaixar2() {
   JuntaPrincipal.write(180);
-  delay(2000);
+  delay(1000);
   Garra.write(180);
-  delay(2000);
+  delay(1000);
   Secundaria.write(79);
-  delay(2000);
-  Garra.write(140);
-  delay(2000);
+  delay(1000);
+  Garra.write(110);
+  delay(1000);
   Secundaria.write(90);
-  delay(2500);
+  delay(1000);
   JuntaPrincipal.write(90);
-  delay(2000);
+  delay(1000);
 }
 
 void abaixar3() {
   JuntaPrincipal.write(180);
-  delay(2000);
-  Garra.write(140);
-  delay(2000);
-  Secundaria.write(75);
-  delay(2000);
-  Garra.write(180);
-  delay(2000);
-  Secundaria.write(120);
-  delay(2500);
-  JuntaPrincipal.write(140);
   delay(1000);
+  Garra.write(110);
+  delay(1000);
+  Secundaria.write(75);
+  delay(1000);
+  Garra.write(180);
+  delay(1000);
+  Secundaria.write(140);
+  delay(1000);
+ // JuntaPrincipal.write(140);
+  //delay(1000);
   JuntaPrincipal.write(90);
   delay(1000);
 }
@@ -326,6 +327,8 @@ void demo3() {
   posicaoesquerda();
   abaixar3();
   posicaoinicial();
+
+  
   posicaoesquerda();
   abaixar2();
   posicaoinicial();
