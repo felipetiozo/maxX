@@ -4,13 +4,13 @@ Braço Robótico para fins educacionais
 <p align="center";> <b> Dia de testes do braço </b> </p>
 
 # Divisões do projeto
-* `Software`: Contem todas bibliotecas e código final do braço.
-* `Eletronica`: Possui todo esquema eletronico e o modelo final da PCB.
-* `Mecânica`: Todos arquivos .sldprt e .dxf do projeto.
+* [`Software`](https://github.com/felipetiozo/maxX/tree/master/Software): Contem todas bibliotecas e código final do braço.
+* [`Eletronica`](https://github.com/felipetiozo/maxX/tree/master/Eletronica): Possui todo esquema eletronico e o modelo final da PCB.
+* [`Mecânica`](https://github.com/felipetiozo/maxX/tree/master/Mecanica): Todos arquivos .sldprt e .dxf do projeto.
 
 
 ## Eletronica
-A PCB (Printed board circuit) do projeto foi construida no software EAGLE(v8.3.1) e fresada em uma mini cnc. (Othermill)
+A PCB (Printed board circuit) do projeto foi construida no software [EAGLE(v8.3.1)](https://www.autodesk.com/products/eagle/overview) e fresada em uma mini cnc. [(Othermill)](https://www.bantamtools.com/)
 ### Lista de materiais 
 | Qtd | Item | Loja | R$ |
 |-----|------|-----|-----|
@@ -34,7 +34,7 @@ O projeto mecânico foi desenvolvido no software de CAD [SolidWorks](http://www.
 
 
 ## Software
-O software foi desenvolvido em cima da IDE Arduino e está dividido em diversas funções para uma utilização mais fácil.
+O software foi desenvolvido em cima da IDE [Arduino](https://www.arduino.cc/) e está dividido em diversas funções para uma utilização mais fácil.
 
 # Contribuidores
 
