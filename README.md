@@ -38,6 +38,6 @@ O software foi desenvolvido em cima da IDE Arduino e está dividido em diversas 
 
 # Contributors
 * [Felipe Tiozo](https://github.com/felipetiozo)
-* [Igor Sousa]
-* [Guilherme Basilio]
-* [Carlos Henrique]
+* [Igor Sousa](https://www.linkedin.com/in/igorsousa/)
+* [Guilherme Basilio](https://www.facebook.com/guilherme.basilio.969)
+* [Carlos Lima](https://www.facebook.com/profile.php?id=100004150566418)
