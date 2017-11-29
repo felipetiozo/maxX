@@ -6,7 +6,7 @@ Braço Robótico para fins educacionais
 # Divisões do projeto
 * `Software`: Contem todas bibliotecas e código final do braço.
 * `Eletronica`: Possui todo esquema eletronico e o modelo final da PCB.
-* `Mecânica`: Todos arquivos .sldprt e .stl do projeto.
+* `Mecânica`: Todos arquivos .sldprt e .dxf do projeto.
 
 
 ## Eletronica
@@ -24,7 +24,7 @@ A PCB (Printed board circuit) do projeto foi construida no software EAGLE(v8.3.1
 
 
 ## Mecânica
-O projeto mecânico foi desenvolvido no software de CAD SolidWorks e está dividio em 5 versões. Todas as peças foram impressas em 3D e cortadas em máquinas de corte a laser.
+O projeto mecânico foi desenvolvido no software de CAD [SolidWorks](http://www.solidworksbrasil.com.br/) e foi construido em 5 versões até chegar a final. Todas as peças foram impressas em 3D e cortadas em máquinas de corte a laser.
 
 ### Lista de materiais
 | Qtd | Item | Loja | R$ |
