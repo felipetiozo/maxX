@@ -36,11 +36,12 @@ O projeto mecânico foi desenvolvido no software de CAD SolidWorks e está divid
 ## Software
 O software foi desenvolvido em cima da IDE Arduino e está dividido em diversas funções para uma utilização mais fácil.
 
+# Contributors
 
 <div style="align=middle"><img src ="https://github.com/felipetiozo/maxX/blob/master/Midia%20/Grupo.jpeg" /></div>
 <p align="center";> <b> Participantes do grupo </b> </p>
 
-# Contributors
+
 * [Felipe Tiozo](https://github.com/felipetiozo)
 * [Igor Sousa](https://www.linkedin.com/in/igorsousa/)
 * [Guilherme Basilio](https://www.facebook.com/guilherme.basilio.969)
