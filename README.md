@@ -1,6 +1,6 @@
 # maxX
 Braço Robótico para fins educacionais
-<div style="align=middle"><img src ="https://github.com/felipetiozo/maxX/blob/master/Midia%20/maxx.jpeg" /></div>
+<div style="align=middle"><img src ="https://github.com/felipetiozo/maxX/blob/master/Midia%20/Teste%20da%20PCB.jpeg" /></div>
 <p align="center";> <b> Dia de testes do braço </b> </p>
 
 # Divisões do projeto
@@ -35,6 +35,10 @@ O projeto mecânico foi desenvolvido no software de CAD SolidWorks e está divid
 
 ## Software
 O software foi desenvolvido em cima da IDE Arduino e está dividido em diversas funções para uma utilização mais fácil.
+
+
+<div style="align=middle"><img src ="https://github.com/felipetiozo/maxX/blob/master/Midia%20/Grupo.jpeg" /></div>
+<p align="center";> <b> Participantes do grupo </b> </p>
 
 # Contributors
 * [Felipe Tiozo](https://github.com/felipetiozo)
