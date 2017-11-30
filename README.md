@@ -46,3 +46,10 @@ O software foi desenvolvido em cima da IDE [Arduino](https://www.arduino.cc/) e 
 * [Igor Sousa](https://www.linkedin.com/in/igorsousa/)
 * [Guilherme Basilio](https://www.facebook.com/guilherme.basilio.969)
 * [Carlos Lima](https://www.facebook.com/profile.php?id=100004150566418)
+
+## Agradecimentos
+* [Engenhoteca](http://engenhoteca.com.br/)
+* [João Pedro](https://github.com/joaopedrovbs)
+* [Felipe Silva](https://github.com/feosilva)
+* [Marcos Oliveira](https://github.com/marcosdeoliveira)
+* [Tenda Digital](http://tenda.digital/)
