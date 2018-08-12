@@ -38,7 +38,7 @@ O software foi desenvolvido em cima da IDE [Arduino](https://www.arduino.cc/) e 
 
 # Contribuidores
 
-<div style="align=middle"><img src ="https://github.com/felipetiozo/maxX/blob/master/Midia%20/Grupo.jpeg" /></div>
+<div style="align=middle"><img src ="https://github.com/felipetiozo/maxX/blob/master/Midia%20/creators.jpeg" /></div>
 <p align="center";> <b> Participantes do grupo </b> </p>
 
 
