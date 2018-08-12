@@ -1,6 +1,6 @@
 # maxX
 Braço Robótico para fins educacionais
-<div style="align=middle"><img src ="https://github.com/felipetiozo/maxX/blob/master/Midia%20/Teste%20da%20PCB.jpeg" /></div>
+<div style="align=middle"><img src ="https://github.com/felipetiozo/maxX/blob/master/Midia%20/testing_board.jpeg" /></div>
 <p align="center";> <b> Dia de testes do braço </b> </p>
 
 # Divisões do projeto
